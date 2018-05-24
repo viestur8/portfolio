@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+* {
+  box-sizing: border-box;
+}
+hr {
+  color: orange;
+}
+header {
+  padding-top: 80px;
+  border-top: 3px solid #FFD700;
+}
+.nav {
+  overflow: auto;
+  height: 40px;
+  width: 100%;
+  background-color: gold;
+  padding-top: 37px;
+  margin-bottom: -30px;
+  text-align: center;
+  list-style: none;
+  float: right;
+}
+#logo h1 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #111111;
+  float: left;
+  cursor: pointer;
+}
+nav ul li a, nav ul li a:visited, nav ul li button {
+  color: #6194ff;
+}
+#nav {
+  background-color: gray;
+  padding: 20px;
+  overflow: auto;
+}
+#nav h1 {
+  float: left;
+}
+#nav ul {
+  float: right;
+  list-style: none;
+}
+#nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+.currentPage, button.currentPage:hover {
+  color: #b8ccf7 !important;
+}
+ul {
+  display: list-item;
+  list-style-type: none;
+  margin: 1em 0;
+  padding-left: 40px;
+}
+li {
+  display: list-item;
+  text-align: inherit;
+}
+button {
+  overflow: visible;
+  text-transform: none;
+}
+.container {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+}
+#imemine {
+  float: left;
+  width: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+#box {
+  width: 600px;
+  margin: 10px 10px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+#tobe {
+  text-align: center;
+  font-style: italic;
+}
+#about {
+  font-style: italic;
+  text-align: left;
+  margin-left: 10px;
+}
+body {
+  background-color: lightblue;
+}
+p {
+  text-align: center;
+}
