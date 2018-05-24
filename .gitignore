@@ -10,3 +10,4 @@ node_modeules
 # temporary files
 *.tmp
 *~
+/.project
