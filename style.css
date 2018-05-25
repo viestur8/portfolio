@@ -22,11 +22,20 @@ header {
   list-style: none;
   float: right;
 } */
-#logo, #logoDetailView{
+
+#logo, #logoDetailView {
   float: left;
   cursor: pointer;
 }
-#logo h1 {
+#logo h1, #logoDetailView h1 {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;#logo h1 {
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -40,20 +49,22 @@ header {
   float: left;
   cursor: pointer;
 }
-#logo h2, #logoDetailView h2 {
-    margin-top: -20px;
-    padding-left: 2px;
+  text-rendering: optimizeLegibility;
 }
 #logo h2, #logoDetailView h2 {
-    font-family: "Titillium Web", Arial, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0;
-    text-decoration: none;
-    text-transform: none;
-    text-rendering: auto;
+  margin-top: -20px;
+  padding-left: 2px;
+}
+#logo h2, #logoDetailView h2 {
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+  text-rendering: auto;
 }
 nav {
   /* background-color: gold; */
@@ -115,6 +126,7 @@ li {
   text-align: left;
   margin-left: 10px;
 } */
+
 body {
   background-color: lightblue;
 }
